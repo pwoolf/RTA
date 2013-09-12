@@ -387,6 +387,7 @@ def main(argv):
 		print "Please check that the file is present and that it is properly formatted as a comma delimited  file.   For example:"
 		print "\t0,0,1,1,2,3"
 		print "\t0,0,2,2,2,1"
+		print "The first entry is the subject or series ID, the rest describe the state of each task type."
 		print "Lines starting with # are ignored."
 		print "Entries can be anything, as long as the naming is consistent and does not contain commas in the entry itself."
 		print "*"*40
